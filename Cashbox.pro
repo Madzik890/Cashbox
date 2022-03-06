@@ -25,7 +25,8 @@ SOURCES += \
         src/gui/receiptdialog.cpp \
         src/gui/scanproductdialog.cpp \
         src/gui/scanproductwscaladialog.cpp \
-        src/main.cpp
+        src/main.cpp \
+        src/uifactory.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -52,7 +53,8 @@ HEADERS += \
     src/gui/productlistdialog.h \
     src/gui/receiptdialog.h \
     src/gui/scanproductdialog.h \
-    src/gui/scanproductwscaladialog.h
+    src/gui/scanproductwscaladialog.h \
+    src/uifactory.hpp
 
 FORMS += \
     src/gui/mainwindow.ui \
